@@ -1,5 +1,5 @@
 CC       := gcc
-CFLAGS   := -Wall -Wextra -Werror -std=c11
+CFLAGS   := -Wall -Wextra -Wshadow -Wconversion -Wsign-conversion -std=c11
 INCLUDES := -Iinclude
 
 DEBUG_FLAGS   := -g -O0
