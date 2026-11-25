@@ -35,3 +35,7 @@ Switching `BUILD` does not rebuild existing objects automatically; run `make cle
 - Compiles with `-Wall -Wextra -Werror -std=c11`.
 - Objects go to `build/obj/`, the executable to `bin/helloworld`.
 - Header dependencies are tracked through `-MMD -MP` generated `.d` files.
+
+## Inspiration
+
+This project is inspired by the article [How to Make a Professional Makefile for C Language Projects](https://dev.to/farhadrahimiklie/how-to-make-a-professional-makefile-for-c-language-projects-2d4e) by Farhad Rahimi Klie on dev.to.
